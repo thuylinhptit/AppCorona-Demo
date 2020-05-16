@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#85FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/hinhanh"
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:textSize="17dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#0B0A0A"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="2dp"
+            android:background="#4CAF50"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/cases"
+            android:textSize="20dp"
+            android:textColor="#0B0A0A"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="2dp"
+            android:background="#4CAF50"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/death"
+            android:textSize="20dp"
+            android:textColor="#0B0A0A"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="2dp"
+            android:background="#4CAF50"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/recovered"
+            android:textSize="20dp"
+            android:textColor="#0B0A0A"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="2dp"
+            android:background="#4CAF50"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#4CAF50"/>
+
+
+</LinearLayout>
